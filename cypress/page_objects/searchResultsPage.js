@@ -1,6 +1,6 @@
-class SearchResultsPage{
-    getProduct(url){
-        return cy.get(`div[style='background-image:url(${url})']`);
+class SearchResultsPage {
+    getProduct(url) {
+        return cy.get(`div[style='background-image:url(${url})']`)
     }
 }
 
